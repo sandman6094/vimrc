@@ -27,6 +27,7 @@ NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'gko/vim-coloresque'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'Yggdroot/indentLine'
+NeoBundle 'Raimondi/delimitMate'
 
 call neobundle#end()
  
@@ -38,9 +39,7 @@ filetype plugin indent on
 NeoBundleCheck
 
 " tab highlight
-set list lcs=tab:\┆\ 
 let g:indentLine_char = '┆'
-let g:indentLine_setColors = 0
 
 " my settings
 set nu
